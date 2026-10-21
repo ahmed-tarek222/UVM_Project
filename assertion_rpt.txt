@@ -1,0 +1,131 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /FIFO_top/DUT/FIFO_sva_inst
+=== Design Unit: work.FIFO_sva
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      27        27         0   100.00%
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/FIFO_top/DUT/FIFO_sva_inst/a_reset
+                     FIFO_sva.sv(21)                    0        144          0          0        144          0           0 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ack
+                     FIFO_sva.sv(73)                    0       1277       1540        219       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ack_low
+                     FIFO_sva.sv(75)                    0       1463       1344        228       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_overflow
+                     FIFO_sva.sv(77)                    0        263       2608        165       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_overflow_low
+                     FIFO_sva.sv(79)                    0       2477        276        282       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_underflow
+                     FIFO_sva.sv(81)                    0        415       2452        169       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_underflow_low
+                     FIFO_sva.sv(83)                    0       2325        432        278       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_full
+                     FIFO_sva.sv(85)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_empty
+                     FIFO_sva.sv(87)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_almostfull
+                     FIFO_sva.sv(89)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_almostempty
+                     FIFO_sva.sv(91)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_full_empty_mutex
+                     FIFO_sva.sv(93)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr
+                     FIFO_sva.sv(95)                    0        778       2065        193       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_rd
+                     FIFO_sva.sv(97)                    0        338       2531        166       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_idle
+                     FIFO_sva.sv(99)                    0        610       2235        191       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr_rd_empty
+                     FIFO_sva.sv(101)                   0        163       2714        159       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr_rd_full
+                     FIFO_sva.sv(103)                   0         88       2794        154       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr_rd_mid
+                     FIFO_sva.sv(105)                   0        336       2529        171       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ptr_inc
+                     FIFO_sva.sv(107)                   0       1277       1540        219       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_rd_ptr_inc
+                     FIFO_sva.sv(109)                   0        762       2086        187       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ptr_wrap
+                     FIFO_sva.sv(111)                   0        109       2770        157       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_rd_ptr_wrap
+                     FIFO_sva.sv(113)                   0         53       2829        154       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ptr_hold
+                     FIFO_sva.sv(115)                   0       1463       1344        228       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_rd_ptr_hold
+                     FIFO_sva.sv(117)                   0       1978        798        260       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_ptr_range
+                     FIFO_sva.sv(119)                   0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_range
+                     FIFO_sva.sv(121)                   0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_data_out_hold
+                     FIFO_sva.sv(123)                   0       1978        798        260       3036          0           2 off
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass     Vacuous    Disable    Attempt     Active Peak Active ATV
+                                                  Count        Count    Count      Count      Count       Count  Count          
+--------------------------------------------------------------------------------------------------------------------------------
+/FIFO_top/DUT/FIFO_sva_inst/a_reset
+                     FIFO_sva.sv(21)                    0        144          0          0        144          0           0 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ack
+                     FIFO_sva.sv(73)                    0       1277       1540        219       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ack_low
+                     FIFO_sva.sv(75)                    0       1463       1344        228       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_overflow
+                     FIFO_sva.sv(77)                    0        263       2608        165       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_overflow_low
+                     FIFO_sva.sv(79)                    0       2477        276        282       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_underflow
+                     FIFO_sva.sv(81)                    0        415       2452        169       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_underflow_low
+                     FIFO_sva.sv(83)                    0       2325        432        278       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_full
+                     FIFO_sva.sv(85)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_empty
+                     FIFO_sva.sv(87)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_almostfull
+                     FIFO_sva.sv(89)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_almostempty
+                     FIFO_sva.sv(91)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_full_empty_mutex
+                     FIFO_sva.sv(93)                    0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr
+                     FIFO_sva.sv(95)                    0        778       2065        193       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_rd
+                     FIFO_sva.sv(97)                    0        338       2531        166       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_idle
+                     FIFO_sva.sv(99)                    0        610       2235        191       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr_rd_empty
+                     FIFO_sva.sv(101)                   0        163       2714        159       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr_rd_full
+                     FIFO_sva.sv(103)                   0         88       2794        154       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_wr_rd_mid
+                     FIFO_sva.sv(105)                   0        336       2529        171       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ptr_inc
+                     FIFO_sva.sv(107)                   0       1277       1540        219       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_rd_ptr_inc
+                     FIFO_sva.sv(109)                   0        762       2086        187       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ptr_wrap
+                     FIFO_sva.sv(111)                   0        109       2770        157       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_rd_ptr_wrap
+                     FIFO_sva.sv(113)                   0         53       2829        154       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_wr_ptr_hold
+                     FIFO_sva.sv(115)                   0       1463       1344        228       3036          1           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_rd_ptr_hold
+                     FIFO_sva.sv(117)                   0       1978        798        260       3036          0           2 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_ptr_range
+                     FIFO_sva.sv(119)                   0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_count_range
+                     FIFO_sva.sv(121)                   0       2884          0        152       3036          0           1 off
+/FIFO_top/DUT/FIFO_sva_inst/ap_data_out_hold
+                     FIFO_sva.sv(123)                   0       1978        798        260       3036          0           2 off
+
+Total Coverage By Instance (filtered view): 100.00%
+

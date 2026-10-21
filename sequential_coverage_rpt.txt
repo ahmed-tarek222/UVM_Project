@@ -1,0 +1,121 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /FIFO_top/DUT/FIFO_sva_inst
+=== Design Unit: work.FIFO_sva
+=================================================================================
+
+Directive Coverage:
+    Directives                      27        27         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ack    FIFO_sva Verilog  SVA  FIFO_sva.sv(129)1277 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ack_low 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(130)1463 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_overflow  FIFO_sva Verilog  SVA  FIFO_sva.sv(131) 263 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_overflow_low 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(132)2477 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_underflow FIFO_sva Verilog  SVA  FIFO_sva.sv(133) 415 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_underflow_low 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(134)2325 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_full      FIFO_sva Verilog  SVA  FIFO_sva.sv(135) 399 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_empty     FIFO_sva Verilog  SVA  FIFO_sva.sv(136) 755 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_almostfull 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(137) 309 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_almostempty 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(138) 529 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr  FIFO_sva Verilog  SVA  FIFO_sva.sv(139) 778 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_rd  FIFO_sva Verilog  SVA  FIFO_sva.sv(140) 338 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_idle 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(141) 610 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr_rd_empty 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(142) 163 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr_rd_full 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(143)  88 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr_rd_mid 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(144) 336 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ptr_inc 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(145)1277 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_rd_ptr_inc 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(146) 762 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ptr_wrap 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(147) 109 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_rd_ptr_wrap 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(148)  53 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ptr_hold 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(149)1463 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_rd_ptr_hold 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(150)1978 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_data_out_hold 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(151)1978 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_fill_to_full 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(153)  64 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_drain_to_empty 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(154)   5 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_overflow_burst 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(155) 121 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_underflow_burst 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(156) 170 Covered   
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ack    FIFO_sva Verilog  SVA  FIFO_sva.sv(129)1277 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ack_low 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(130)1463 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_overflow  FIFO_sva Verilog  SVA  FIFO_sva.sv(131) 263 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_overflow_low 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(132)2477 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_underflow FIFO_sva Verilog  SVA  FIFO_sva.sv(133) 415 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_underflow_low 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(134)2325 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_full      FIFO_sva Verilog  SVA  FIFO_sva.sv(135) 399 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_empty     FIFO_sva Verilog  SVA  FIFO_sva.sv(136) 755 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_almostfull 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(137) 309 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_almostempty 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(138) 529 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr  FIFO_sva Verilog  SVA  FIFO_sva.sv(139) 778 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_rd  FIFO_sva Verilog  SVA  FIFO_sva.sv(140) 338 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_idle 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(141) 610 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr_rd_empty 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(142) 163 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr_rd_full 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(143)  88 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_count_wr_rd_mid 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(144) 336 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ptr_inc 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(145)1277 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_rd_ptr_inc 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(146) 762 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ptr_wrap 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(147) 109 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_rd_ptr_wrap 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(148)  53 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_wr_ptr_hold 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(149)1463 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_rd_ptr_hold 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(150)1978 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_data_out_hold 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(151)1978 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_fill_to_full 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(153)  64 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_drain_to_empty 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(154)   5 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_overflow_burst 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(155) 121 Covered   
+/FIFO_top/DUT/FIFO_sva_inst/cp_underflow_burst 
+                                         FIFO_sva Verilog  SVA  FIFO_sva.sv(156) 170 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 27
+
+Total Coverage By Instance (filtered view): 100.00%
+
